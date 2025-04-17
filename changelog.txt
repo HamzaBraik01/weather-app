@@ -16,3 +16,4 @@
 - Ajout des icônes météo avec FontAwesome
 - Amélioration de l'affichage responsive et design général
 - Ajout de la gestion des erreurs pour les villes inconnues
+- Finalisation du README.md avec les instructions d'utilisation
