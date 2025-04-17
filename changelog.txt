@@ -9,3 +9,4 @@
 - Ajout de la gestion des erreurs pour les villes inconnues
 - Finalisation du README.md avec les instructions d'utilisation
 - Ajout de la structure HTML de la page météo
+- Création du fichier CSS et premier style de base
