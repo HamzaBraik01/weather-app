@@ -11,3 +11,4 @@
 - Ajout de la structure HTML de la page météo
 - Création du fichier CSS et premier style de base
 - Ajout du script JavaScript pour la recherche par ville
+- Connexion à l'API météo et affichage des conditions actuelles
