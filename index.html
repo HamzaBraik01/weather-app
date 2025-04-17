@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Météo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Entrez le nom d'une ville">
+            <button class="fa-solid fa-magnifying-glass"></button>
+            <button class="fa-solid fa-location-crosshairs geolocation-btn" title="Utiliser ma position"></button>
+        </div>
+
+        <div class="weather-box">
+            <div class="not-found">
+                <img src="https://i.imgur.com/QwNvrN8.png" alt="not found">
+                <p>Oops! Ville non trouvée :/</p>
+            </div>
+
+            <div class="weather hidden">
+                <img src="/placeholder.svg" alt="weather icon">
+                <p class="temperature"></p>
+                <p class="description"></p>
+                <div class="weather-details">
+                    <div class="humidity">
+                        <i class="fa-solid fa-water"></i>
+                        <div class="text">
+                            <span></span>
+                            <p>Humidité</p>
+                        </div>
+                    </div>
+                    <div class="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="text">
+                            <span></span>
+                            <p>Vitesse du vent</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hourly-forecast hidden">
+                <h2>Prévisions à Court Terme</h2>
+                <p class="forecast-subtitle">Météo pour les prochaines heures</p>
+                <div class="hourly-container"></div>
+            </div>
+
+            <div class="three-hour-forecast hidden">
+                <h2>Prévisions par Tranches de 3 Heures</h2>
+                <p class="forecast-subtitle">Prévisions météorologiques détaillées</p>
+                <div class="three-hour-container"></div>
+            </div>
+
+            <div class="daily-forecast hidden">
+                <h2>Prévisions sur 5 jours</h2>
+                <p class="forecast-subtitle">Aperçu de la semaine à venir</p>
+                <div class="daily-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
