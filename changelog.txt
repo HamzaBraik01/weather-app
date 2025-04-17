@@ -13,3 +13,4 @@
 - Ajout du script JavaScript pour la recherche par ville
 - Connexion à l'API météo et affichage des conditions actuelles
 - Affichage des prévisions météo à court terme (3h)
+- Ajout des icônes météo avec FontAwesome
