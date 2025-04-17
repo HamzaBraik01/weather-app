@@ -14,3 +14,4 @@
 - Connexion à l'API météo et affichage des conditions actuelles
 - Affichage des prévisions météo à court terme (3h)
 - Ajout des icônes météo avec FontAwesome
+- Amélioration de l'affichage responsive et design général
